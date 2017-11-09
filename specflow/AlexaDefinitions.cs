@@ -9,13 +9,19 @@ namespace specflow
         [Given(@"I have entered (.*) into the calculator")]
         public void GivenIHaveEnteredIntoTheCalculator(int p0)
         {
-            ScenarioContext.Current.Pending();
+            
         }
         
         [When(@"I press add")]
         public void WhenIPressAdd()
         {
             ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I press Multiply")]
+        public void WhenIMultiply()
+        {
+
         }
         
         [Then(@"the result should be (.*) on the screen")]
